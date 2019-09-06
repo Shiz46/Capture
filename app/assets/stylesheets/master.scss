@@ -1,8 +1,19 @@
 
 @import "bootstrap";
 
+body {
+  background: image_url('bg.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "Dejavu Serif", "Bitstrean Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
 .btn {
   border-radius: 0;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .frosty h1 {
