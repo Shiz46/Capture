@@ -4,5 +4,15 @@
 .navbar-inverse .navbar-brand {
   color: #7E10A7;
   font-family: 'inconsolatamedium';
+  font-weight: 100;
   font-size:26px;
+  color: #3BC6E9;
+}
+
+
+.navbar {
+  font-family: "Helvetice Neue", Helvetica;
+  font-weight: 200;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background: image_url('wormz.png');
 }
