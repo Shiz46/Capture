@@ -6,6 +6,16 @@ body {
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "Dejavu Serif", "Bitstrean Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 10px;
+}
+
 .btn {
   border-radius: 0;
 }
@@ -35,6 +45,7 @@ body {
 
 h1,h2,h3,h4,h5,h6, .navbar {
   margin: 0;
+
 }
 .hero {
   background: image_url('hero.jpg') no-repeat center center fixed;
@@ -46,14 +57,6 @@ h1,h2,h3,h4,h5,h6, .navbar {
   box-shadow: 0px 3px 8px #2a2a2a;
 }
 
-.navbar-inverse .navbar-brand {
-  color: #7E10A7;
-  font-family: 'inconsolatamedium';
-  font-weight: 100;
-  font-size:26px;
-  color: #3BC6E9;
-}
-
 
 
 
@@ -63,3 +66,19 @@ h1,h2,h3,h4,h5,h6, .navbar {
   box-shadow: 0px 1px 3px #2a2a2a;
   background: image_url('wormz.png');
 }
+
+.navbar-inverse .navbar-brand {
+ color: #7E10A7;
+  font-family: 'inconsolatamedium';
+  font-weight: 100;
+  font-size:26px;
+  color: #3BC6E9;
+}
+
+#footer a{ 
+color: white;
+}
+
+
+
+
