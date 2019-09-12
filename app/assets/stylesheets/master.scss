@@ -78,7 +78,7 @@ h1,h2,h3,h4,h5,h6, .navbar {
   background: image_url('wormz.png');
 }
 
-.navbar-inverse .navbar-brand {
+.navbar-light .navbar-brand {
  color: #7E10A7;
   font-family: 'inconsolatamedium';
   font-weight: 100;
@@ -86,10 +86,11 @@ h1,h2,h3,h4,h5,h6, .navbar {
   color: #3BC6E9;
 }
 
-.navbar-inverse .navbar-nav  .nav-link{
+.navbar-light .navbar-nav  .nav-link{
   
   color: black;
 }
+
 
 #footer a{ 
 color: white;

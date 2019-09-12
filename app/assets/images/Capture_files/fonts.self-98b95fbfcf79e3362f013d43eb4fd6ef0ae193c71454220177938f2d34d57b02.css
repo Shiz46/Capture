@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'inconsolatamedium';
+  src: url(/assets/inconsolata-webfont-78bc05208e5f21110bf225ada4fa160cbe9f36d5697765ad1bf0798f3259509d.woff2) format("woff2"), url(/assets/inconsolata-webfont-9c23d754437aa1a4e390844f15f6f9e02082ad7618491441eb7e61028f3f5dc8.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

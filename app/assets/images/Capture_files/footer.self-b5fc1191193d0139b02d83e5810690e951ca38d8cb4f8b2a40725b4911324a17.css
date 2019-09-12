@@ -1,0 +1,28 @@
+/* line 1, /vagrant/src/capture/app/assets/stylesheets/footer.scss */
+html {
+  height: 100%;
+}
+
+/* line 5, /vagrant/src/capture/app/assets/stylesheets/footer.scss */
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 12, /vagrant/src/capture/app/assets/stylesheets/footer.scss */
+#flex-content-container {
+  flex: 1;
+}
+
+/* line 16, /vagrant/src/capture/app/assets/stylesheets/footer.scss */
+#footer {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  background-color: rgba(36, 32, 33, 0.9);
+  color: white;
+  font-family: "Helvetica Neue", Helvetica;
+  padding: 10px 0px;
+  margin-top: 30 px;
+}
