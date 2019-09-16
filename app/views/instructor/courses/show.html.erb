@@ -7,10 +7,10 @@
   
   <diV class="text-center">
     <%= link_to 'Add a new section...', new_instructor_course_section_path(current_course), class: 'btn btn-primary btn-lg' %>
-  </diV>
+  </div>
 
   <ul>
-    <% current.course.sections.each do |section| %>
+    <% current_course.sections.each do |section| %>
       <li>
         <%= section.title%>
         <%= link_to 'New Lesson', new_instructor_section_lesson_path(section), class: 'float-right btn btn-primary btn-sm' %>
@@ -23,7 +23,7 @@
           </li>
         <% end %>
       </ul>
-          <br class="clr" />
+      <br class="clr" />
       </li>
     <% end %>
   </ul>
