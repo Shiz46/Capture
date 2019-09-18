@@ -1,7 +1,10 @@
 class Course < ApplicationRecord
   mount_uploader :image, ImageUploader
+
+
   belongs_to :user
   has_many :sections, dependent: :delete_all
+  has_many :enrollments, dependent: :delete_all
 
 
   validates :title, presence: true
