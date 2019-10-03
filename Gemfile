@@ -75,8 +75,11 @@ gem 'simple_form'
 gem 'devise'
 gem 'carrierwave', '~> 1.3.1' 
 gem 'figaro'
+gem  'jquery-ui-rails'
 gem 'fog-aws'
 gem 'mini_magick'
 gem 'carrierwave-aws'
 gem 'stripe'
+
+gem "hirb"
 gem 'ranked-model'
