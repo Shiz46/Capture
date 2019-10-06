@@ -83,3 +83,4 @@ gem 'stripe'
 
 gem "hirb"
 gem 'ranked-model'
+gem "font-awesome-rails"
