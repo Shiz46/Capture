@@ -16,6 +16,7 @@ class Instructor::CoursesController < ApplicationController
   end 
 
   def show 
+    @section = Section.new
   end
 
   private
@@ -23,7 +24,7 @@ class Instructor::CoursesController < ApplicationController
 
   def require_authorized_for_current_course
     if current_course.user != current_user
-      render plain: "Unauthorized", status: :Unauthorized
+      render plain: "Unauthorized", status: :unauthorized
     end 
   end
 

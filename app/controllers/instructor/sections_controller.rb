@@ -2,22 +2,20 @@ class Instructor::SectionsController < ApplicationController
   #make sure there is a  user.
   before_action :authenticate_user!
     #ensure the user who created the course is the same user who logged in
-  before_action :require_authorized_for_current_course
+  before_action :require_authorized_for_current_course, only: [:create]
   before_action :require_authorised_for_current_section, only: [:update]
 
-  def new 
-    @section = Section.new
-  end 
+
 
   def create 
-
     @section = current_course.sections.create(section_params)
     redirect_to instructor_course_path(current_course)
   end 
 
 
   def update 
-    current_
+    current_section.update_attributes(section_params)
+    render plain: 'ok!'
   end 
 
   private
@@ -33,7 +31,7 @@ class Instructor::SectionsController < ApplicationController
   end 
 
   def require_authorized_for_current_section
-    if current_lesson.section.user != current_user
+    if current_section.course.user != current_user
       render plain: "Unauthorized", status: :unauthorized 
     end 
   end 
