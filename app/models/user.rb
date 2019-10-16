@@ -14,7 +14,7 @@ class User < ApplicationRecord
     #enrolled_courses = enrollments.collect(&:course)
       #N+1 Query, it reaches out to the database to load the enrollments first.
       #Then it reaches out to database n times, where n is the number of enrollments a user (student) has.
-    return enrolled_courses.include?(courses)
+    return enrolled_courses.include?(course)
   end 
 
 
